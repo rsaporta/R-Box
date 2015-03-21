@@ -142,7 +142,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(TRUE|FALSE|NULL|NA|Inf|NaN)\b</string>
+					<string>\b(TRUE|FALSE|NULL|NA|Inf|NaN|NA_real_|NA_integer_|NA_character_)\b</string>
 					<key>name</key>
 					<string>constant.language.r</string>
 				</dict>
