@@ -9,6 +9,7 @@
 		<string>s</string>
 		<string>S</string>
 		<string>Rprofile</string>
+		<string>site</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(\(\s*$|\{\s*$)</string>
