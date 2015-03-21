@@ -224,13 +224,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(ifelse|if|for|return|switch|while|invisible)\b(?=\s*\()</string>
+					<string>\b(ifelse|if|for|return|switch|while|invisible|foreach)\b(?=\s*\()</string>
 					<key>name</key>
 					<string>keyword.control.r</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(\-|\+|\*|\/|%\/%|%%|%\*%|%in%|%o%|%x%|\^|:=|%between%|%chin%|%like%|%\+%|%\+replace%)</string>
+					<string>(\-|\+|\*|\/|%\/%|%%|%\*%|%in%|%o%|%x%|\^|:=|%between%|%chin%|%like%|%\+%|%\+replace%|%do%|%dopar%)</string>
 					<key>name</key>
 					<string>keyword.operator.arithmetic.r</string>
 				</dict>
