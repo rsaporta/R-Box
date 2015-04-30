@@ -189,6 +189,7 @@ class RBoxSourceCodeCommand(sublime_plugin.TextCommand):
         if not fname:
             sublime.error_message("Save the file!")
             return
+        fname = re.sub(os.path.expanduser("~"), "~", fname)
         cmd = "source(\"" + escape_dq(fname) + "\")"
         send_text(view, cmd)
 
